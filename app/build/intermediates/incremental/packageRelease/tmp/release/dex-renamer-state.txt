@@ -1,0 +1,4 @@
+#Thu May 20 18:34:11 CST 2021
+base.0=D\:\\OneDrive\\Production materials\\Graduation project\\vocal_test\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

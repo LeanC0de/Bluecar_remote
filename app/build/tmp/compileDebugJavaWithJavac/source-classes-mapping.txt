@@ -1,0 +1,17 @@
+com/example/h/baidu_vocal/HelpActivity.java
+ com.example.h.baidu_vocal.HelpActivity
+com/example/h/baidu_vocal/BuildConfig.java
+ com.example.h.baidu_vocal.BuildConfig
+com/example/h/baidu_vocal/BluetoothDeviceListActivity.java
+ com.example.h.baidu_vocal.BluetoothDeviceListActivity
+ com.example.h.baidu_vocal.BluetoothDeviceListActivity$1
+com/example/h/baidu_vocal/BluetoothUtils.java
+ com.example.h.baidu_vocal.BluetoothUtils
+com/example/h/baidu_vocal/MainActivity.java
+ com.example.h.baidu_vocal.MainActivity
+ com.example.h.baidu_vocal.MainActivity$1
+ com.example.h.baidu_vocal.MainActivity$2
+ com.example.h.baidu_vocal.MainActivity$2$1
+com/example/h/baidu_vocal/GravityActivity.java
+ com.example.h.baidu_vocal.GravityActivity
+ com.example.h.baidu_vocal.GravityActivity$1

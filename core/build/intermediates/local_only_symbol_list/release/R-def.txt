@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id btn
+id e
+id info_set_l
+id info_set_led
+id info_set_v
+id l
+id ok
+id p
+id v
+layout common_mini
+string app_name

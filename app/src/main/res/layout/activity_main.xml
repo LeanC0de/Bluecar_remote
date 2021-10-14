@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:background="#C86F6F"
+	android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_marginEnd="95dp"
+			android:layout_margin="25dip"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/title_station"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:text="Current mode"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#ffffff" />
+
+			<TextView
+				android:id="@+id/textView_Mode"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:text="遥控模式"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#ffffff" />
+
+
+		</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_margin="25dip">
+
+			<Button
+				android:id="@+id/button_help"
+				android:layout_width="100dp"
+				android:layout_height="66dp"
+				android:layout_weight="1"
+				android:text="帮助说明" />
+
+			<Button
+				android:id="@+id/button_yuyin"
+				android:layout_width="100dp"
+				android:layout_height="66dp"
+				android:layout_weight="1"
+				android:text="语音遥控" />
+
+			<Button
+				android:id="@+id/button_grivaty"
+				android:layout_width="100dp"
+				android:layout_height="66dp"
+				android:text="重力遥控" />
+
+			<Button
+		    android:id="@+id/bt_bluetooth"
+	        android:layout_width="100dp"
+	        android:layout_height="66dp"
+		    android:text="连接设备" />
+
+	    <Button
+	        android:id="@+id/Button_Mode"
+	        android:layout_width="100dp"
+	        android:layout_height="66dp"
+	        android:text="切换模式" />
+
+    	</LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/buttonupleft"
+			android:layout_width="95dp"
+			android:layout_height="66dp"
+			android:layout_above="@+id/buttonright"
+			android:layout_alignLeft="@+id/buttonleft"
+			android:background="@drawable/design_point"
+			android:text="左前" />
+
+		<Button
+            android:id="@+id/buttonup"
+            android:layout_width="95dp"
+            android:layout_height="66dp"
+            android:layout_above="@+id/buttonright"
+            android:layout_alignLeft="@+id/buttondown"
+            android:background="@drawable/design_point"
+            android:text="前进" />
+
+		<Button
+			android:id="@+id/buttonupright"
+			android:layout_width="95dp"
+			android:layout_height="66dp"
+			android:layout_above="@+id/buttonright"
+			android:layout_alignLeft="@+id/buttonright"
+			android:background="@drawable/design_point"
+			android:text="右前" />
+
+		<Button
+			android:id="@+id/buttondownright"
+			android:layout_width="95dp"
+			android:layout_height="66dp"
+			android:layout_below="@+id/buttonright"
+			android:layout_alignLeft="@+id/buttonright"
+			android:background="@drawable/design_point"
+			android:text="右后" />
+
+        <Button
+            android:id="@+id/buttondown"
+            android:layout_width="95dp"
+            android:layout_height="66dp"
+            android:layout_below="@+id/buttonleft"
+            android:layout_toRightOf="@+id/buttonleft"
+            android:background="@drawable/design_point"
+            android:text="后退" />
+
+		<Button
+			android:id="@+id/buttondownleft"
+			android:layout_width="95dp"
+			android:layout_height="66dp"
+			android:layout_below="@+id/buttonleft"
+			android:layout_alignLeft="@+id/buttonleft"
+			android:background="@drawable/design_point"
+			android:text="左后" />
+
+        <Button
+            android:id="@+id/buttonleft"
+            android:layout_width="95dp"
+            android:layout_height="66dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/design_point"
+            android:text="左转" />
+
+        <Button
+            android:id="@+id/buttonright"
+            android:layout_width="95dp"
+            android:layout_height="66dp"
+            android:layout_above="@+id/buttondown"
+            android:layout_toRightOf="@+id/buttondown"
+            android:background="@drawable/design_point"
+            android:text="右转" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

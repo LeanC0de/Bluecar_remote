@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.baidu.aip.asrwakeup3.core" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+9-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:2:5-71
+9-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:2:22-68
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:3:5-79
+10-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:3:22-76
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:4:5-67
+11-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:5:5-81
+12-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:5:22-78
+13
+14    <!-- 蓝牙录音使用，不需要可以去除 -->
+15    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+15-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:8:5-75
+15-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:8:22-72
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:9:5-68
+16-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:10:5-80
+17-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:11:5-74
+18-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:11:22-71
+19
+20    <application>
+20-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:12:5-23:19
+21        <meta-data
+21-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:13:9-15:39
+22            android:name="com.baidu.speech.APP_ID"
+22-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:14:13-51
+23            android:value="24123657" />
+23-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:15:13-37
+24        <meta-data
+24-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:17:9-19:59
+25            android:name="com.baidu.speech.API_KEY"
+25-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:18:17-56
+26            android:value="CudQfSGsUNED6r6Hw6qKqrlG" />
+26-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:19:17-57
+27        <meta-data
+27-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:20:9-22:67
+28            android:name="com.baidu.speech.SECRET_KEY"
+28-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:21:17-59
+29            android:value="r0GROnF3YSj9UGztcfAeUB2T9KuWfimw" />
+29-->D:\OneDrive\Production materials\Graduation project\vocal_test\core\src\main\AndroidManifest.xml:22:17-65
+30    </application>
+31
+32</manifest>

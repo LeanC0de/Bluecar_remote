@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="#3FA8C3"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:orientation="horizontal" 
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/FrameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/beijing"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:background="@drawable/design_point" />
+
+            <ImageView
+                android:id="@+id/car"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/carqian" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/qian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/FrameLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/qian" />
+
+        <ImageView
+            android:id="@+id/hou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/qian"
+            android:layout_below="@+id/FrameLayout1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/hou" />
+
+        <ImageView
+            android:id="@+id/zuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/FrameLayout1"
+            android:background="@drawable/zuo" />
+
+        <ImageView
+            android:id="@+id/you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/zuo"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/FrameLayout1"
+            android:background="@drawable/you" />
+
+        <ImageView
+            android:id="@+id/zuohou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FrameLayout1"
+            android:layout_toLeftOf="@+id/FrameLayout1"
+            android:background="@drawable/zuohou" />
+
+        <ImageView
+            android:id="@+id/youhou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FrameLayout1"
+            android:layout_toRightOf="@+id/FrameLayout1"
+            android:background="@drawable/youhou" />
+
+        <ImageView
+            android:id="@+id/zuoqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/FrameLayout1"
+            android:layout_toLeftOf="@+id/FrameLayout1"
+            android:background="@drawable/zuoqian" />
+
+        <ImageView
+            android:id="@+id/youqian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/FrameLayout1"
+            android:layout_alignLeft="@+id/youhou"
+            android:background="@drawable/youqian" />
+
+    </RelativeLayout>
+
+</LinearLayout>

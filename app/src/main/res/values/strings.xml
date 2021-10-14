@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bluecar</string>
+
+
+    <string name="title_not_connected">not connected</string>
+
+
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Help_message">主界面部分命令：\n \'5\' — 停止，松开按键时会发送\'5\'\n 1.左边四个按键命令\n \'8\' — 前进\n \'2\' — 后退\n \'4\' — 左转\n \'6\' — 右转\n 2.右边四个按键命令\n \'8\' — 上\n \'2\' — 下\n \'4\' — 左\n \'6\' — 右\n 左边四个按键与右边四个按键区别：\n 左边四个按键支持连按，即按着按键会一直发命令\n 右边四个按键不支持连按，即按一次发送一次命令\n /********************/\n 切换模式：\n 可以切换 遥控模式和自动模式\n \'A\' — 切换到自动模式\n \'M\' — 切换到遥控模式\n /*********************/\n 重力遥控部分命令：\n 前后左右摇晃手机即可触发命令\n 命令跟主界面左边四个按键一样，即\n \'8\' — 前进\n \'2\' — 后退\n \'4\' — 左转\n \'6\' — 右转\n /*****************/\n 语音遥控部分命令：\n \'8\' — 前进\n \'2\' — 后退\n \'4\' — 左转\n \'6\' — 右转\n 注意：\n 1.语音遥控部分需要联网才可执行，使百度语音API和SDK\n 2.前进和后退: 当说出“前进”或“后退”语音时，系统识别出来后会发送\'8\'或者\'2\',执行 前进后退指令\n 左转和右转：当说出“左转”或“右转”语音时，系统识别出来后会发送\'4\'或者\'6\',执行 前进后退指令\n</string>
+</resources>
